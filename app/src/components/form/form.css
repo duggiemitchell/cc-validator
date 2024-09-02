@@ -1,0 +1,33 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0px;
+}
+.form > button {
+  background-color: #0000ff;
+}
+.form > button:disabled {
+  opacity: 0.6;
+}
+.form-helper-text {
+  grid-row-start: 2;
+  font-size: small;
+}
+.form-helper-text.invalid {
+  color: red;
+}
+.form-helper-text.valid {
+  color: green;
+}
+.visuallyHidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}

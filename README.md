@@ -48,5 +48,5 @@ To use the Credit Card Validator, follow these steps:
    ```sh
    npm run dev
    ```
-2. Enter the credit card number you wish to validate.
+2. Enter the credit card number you wish to validate. Here are some test cards for you to use: [Test Credit Card Account Numbers](https://www.paypalobjects.com/en_GB/vhelp/paypalmanager_help/credit_card_numbers.htm)
 3. The tool will display whether the credit card number is valid.
